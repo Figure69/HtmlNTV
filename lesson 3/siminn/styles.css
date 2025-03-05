@@ -37,3 +37,97 @@ h1{
 font-weight: 600;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(74, 148, 190);
+    padding: 0;
+    width: 7vw;
+    position: relative;
+    right: 27vw;
+    top: 6vh;
+}
+
+.simi{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 38vw;
+}
+
+ul{
+    font-family: sans-serif;
+    position: relative;
+    top: 2.2vh;
+    right: 1vw;
+}
+
+b{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 2vh;
+}
+li {
+    margin: 10px 0;
+    font-size: 18px;
+   
+  }
+
+.easy{
+    font-family: sans-serif;
+    padding-top: 10vh;
+    font-size: 20px;
+}
+
+.button-47 {
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid rgb(74, 148, 190);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: rgb(74, 148, 190);
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 26px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 20px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button-48 {
+    align-items: center;
+    background: rgb(74, 148, 190);
+    border: 2px solid rgb(74, 148, 190);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 26px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 20px;
+    text-decoration: none;
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    left: 1vw;
+  }
