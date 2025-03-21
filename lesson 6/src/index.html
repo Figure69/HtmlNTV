@@ -8,23 +8,30 @@
 </head>
 
 
-<body>
+<body class="loading">
     <div class="p-10">
         <!-- Header Section -->
         <header class="bg-green-500 rounded-t-xl flex flex-col items-center text-white p-4 gap-4">
             <img src="./shrek.jpg" alt="Shrek's Photo" class="profile-picture rounded-full border-white border-4">
             <h1 class="text-5xl">Shrek</h1>
             <p class="title">Swamp Enthusiast | Ogre Extraordinaire</p>
-        </header>
+          </header>
 
-        <!-- Contact Section -->
+     
+       
+       <!-- Contact Section -->
         <section class="contact">
             <h2>Contact Information</h2>
             <p><strong>Email:</strong> shrek@swampmail.com</p>
             <p><strong>Phone:</strong> +123 456 7890</p>
             <p><strong>Location:</strong> Shrek's Swamp, Far Far Away</p>
         </section>
-
+        <br>
+        <div>
+        <button id="btnClick"class="border-2 border-amber-50 bg-amber-800 text-amber-50"> breyta</button>
+        <input type="text"/>
+       </div>
+       <br>  
         <!-- Skills Section -->
         <section class="skills">
             <h2>Skills</h2>
@@ -66,6 +73,19 @@
         </footer>
     </div>
 
-</body>
+    <script defer>
+        document.body.classList.remove("loading");
+      let education = document.querySelector(".education")
+      console.log("hello world", education);
 
+      document.getElementById("btnClick").addEventListener("click", () => {
+        document.body.style.backgroundColor = "red";
+        console.log("btn click")
+      })
+
+      window.addEventListener("scroll", (e) => {
+        console.log("scroll");
+      });
+    </script>
+</body>
 </html>
